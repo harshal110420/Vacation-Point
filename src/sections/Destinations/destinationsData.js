@@ -18,6 +18,29 @@ import Maui from "./images/Maui.jpg";
 import London from "./images/London.jpg";
 import Rome from "./images/Rome.jpg";
 import Phuket from "./images/Phuket.jpg";
+//------------------------------------------------------------------//
+import waterride from "./images/waterride.jpg";
+import SacredMonkey from "./images/SacredMonkey.jpg";
+import uluwatutemple from "./images/uluwatutemple.jpg";
+import PuraTirtaEmpul from "./images/PuraTirtaEmpul.jpg";
+import thegarudawisnukencana from "./images/thegarudawisnukencana.jpg";
+import UbudTropical from "./images/UbudTropical.jpg";
+import parthipuriubud from "./images/parthipuriubud.jpg";
+import BaliYogi from "./images/BaliYogi.jpg";
+import gustihomestaykerobokan from "./images/gustihomestaykerobokan.jpg";
+import AKAR from "./images/AKAR.jpg";
+import KepituRestaurant from "./images/KepituRestaurant.jpg";
+import ReefBeachClub from "./images/ReefBeachClub.jpg";
+import MieGoreng from "./images/MieGoreng.jpg";
+import Betutu from "./images/Betutu.jpg";
+
+//--------------------------------------------------------------------//
+import eiffeltower from "./images/eiffeltower.jpg";
+import LouvreMuseum from "./images/LouvreMuseum.jpg";
+import MuséedOrsay from "./images/MuséedOrsay.jpg";
+import FondationLouisVuitton from "./images/FondationLouisVuitton.jpg";
+import JardinduLuxembourg from "./images/JardinduLuxembourg.jpg";
+import parischarlesdegaulle from "./images/parischarlesdegaulle.jpg";
 
 const destinationsData = [
   {
@@ -64,8 +87,7 @@ const destinationsData = [
         {
           id: 1,
           name: "Waterbom Bali",
-          imageSrc:
-            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/53/5e/42/photo0jpg.jpg?w=500&h=400&s=1",
+          imageSrc: waterride,
           imageAlt: "Bali, Indonesian",
           distanceFromAirport: "2 miles",
           description:
@@ -76,68 +98,48 @@ const destinationsData = [
         },
         {
           id: 2,
-          name: "Waterbom Bali",
-          imageSrc:
-            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/53/5e/42/photo0jpg.jpg?w=500&h=400&s=1",
-          imageAlt: "Bali, Indonesian",
-          distanceFromAirport: "2 miles",
-          description:
-            "Lively water park with a rides for all ages, plus restaurants, a food court & a swim-up bar.",
+          name: "Sacred Monkey Forest",
+          imageSrc: SacredMonkey,
+          imageAlt: "Sacred Monkey Forest Sanctuary",
+          distanceFromAirport: "6 miles",
+          description: "Mandala Suci Wenara Wana, also known as Ubud Monkey.",
           address:
-            " Jl. Kartika Plaza, Tuban, Kec. Kuta, Kabupaten Badung, Bali 80361, Indonesia",
-          hours: " 9 am to 6 pm",
+            "Jl. Monkey Forest, Ubud, Kecamatan Ubud, Kabupaten Gianyar, Bali 80571, Indonesia",
+          hours: " 9 am to 5 pm",
         },
         {
           id: 3,
-          name: "Waterbom Bali",
-          imageSrc:
-            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/53/5e/42/photo0jpg.jpg?w=500&h=400&s=1",
+          name: "Uluwatu Temple",
+          imageSrc: uluwatutemple,
           imageAlt: "Bali, Indonesian",
           distanceFromAirport: "2 miles",
           description:
-            "Lively water park with a rides for all ages, plus restaurants, a food court & a swim-up bar.",
-          address:
-            " Jl. Kartika Plaza, Tuban, Kec. Kuta, Kabupaten Badung, Bali 80361, Indonesia",
-          hours: "9 am to 6 pm",
+            "Uluwatu Temple is a Balinese Hindu sea temple located in Uluwatu. The temple is regarded as one of the sad kahyangan.",
+          address: "Pecatu, South Kuta, Badung Regency, Bali, Indonesia",
+          hours: "9 am to 7 pm",
         },
         {
           id: 4,
-          name: "Waterbom Bali",
-          imageSrc:
-            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/53/5e/42/photo0jpg.jpg?w=500&h=400&s=1",
+          name: "Pura Tirta Empul",
+          imageSrc: PuraTirtaEmpul,
           imageAlt: "Bali, Indonesian",
-          distanceFromAirport: "2 miles",
+          distanceFromAirport: "2.9 miles",
           description:
-            "Lively water park with a rides for all ages, plus restaurants, a food court & a swim-up bar.",
-          address:
-            " Jl. Kartika Plaza, Tuban, Kec. Kuta, Kabupaten Badung, Bali 80361, Indonesia",
-          hours: "9 am to 6 pm",
+            "Pura Tirta Empul is a Hindu temple complex and holy mountain spring in Bali, Indonesia. The temple is known for its sacred spring water, which is used by Balinese Hindus for ritual purification.",
+          address: "Tampaksiring, Gianyar Regency, Bali 80552, Indonesia",
+          hours: "9 am to 9 pm",
         },
         {
           id: 5,
-          name: "Waterbom Bali",
-          imageSrc:
-            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/53/5e/42/photo0jpg.jpg?w=500&h=400&s=1",
+          name: "Garuda Wisnu Kencana Cultural Park",
+          imageSrc: thegarudawisnukencana,
           imageAlt: "Bali, Indonesian",
           distanceFromAirport: "2 miles",
           description:
-            "Lively water park with a rides for all ages, plus restaurants, a food court & a swim-up bar.",
+            "It is devoted to the Hindu god Vishnu, and his mount, Garuda, the mythical bird who became his companion.",
           address:
-            " Jl. Kartika Plaza, Tuban, Kec. Kuta, Kabupaten Badung, Bali 80361, Indonesia",
-          hours: "9 am to 6 pm",
-        },
-        {
-          id: 6,
-          name: "Waterbom Bali",
-          imageSrc:
-            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/53/5e/42/photo0jpg.jpg?w=500&h=400&s=1",
-          imageAlt: "Bali, Indonesian",
-          distanceFromAirport: "2 miles",
-          description:
-            "Lively water park with a rides for all ages, plus restaurants, a food court & a swim-up bar.",
-          address:
-            " Jl. Kartika Plaza, Tuban, Kec. Kuta, Kabupaten Badung, Bali 80361, Indonesia",
-          hours: "9 am to 6 pm",
+            "Uluwatu St, Ungasan, South Kuta, Badung Regency, Bali 80364, Indonesia",
+          hours: "9 am to 9 pm",
         },
 
         // ... add more nearby places
@@ -188,141 +190,84 @@ const destinationsData = [
       accommodations: [
         {
           id: 1,
-          name: "K Club Ubud",
-          imgSrc:
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/470468308.jpg?k=2b09bd6361cb5324328af5617f10ebd5665b96e4b723d5a0010a0691702c26fd&o=&hp=1",
+          name: "Ubud Tropical",
+          imgSrc: UbudTropical,
           type: "Resort",
           description:
-            "K-Club Ubud is composed of 30 fully service villas completely integrated into the environment, with an organic restaurant, a new kind of spa, and an inviting pool club. The fitness and yoga facilities overlook the calm, green jungle.",
-          facilities: ["Pool", "Spa"],
+            "On a busy road surrounded by lush tropical gardens, this laid-back hostel is 3 km from both the Sacred Monkey Forest Sanctuary and the Yoga Barn",
+          facilities: ["Pool", "Wi-Fi", "Parking", "AC"],
           rating: "4.8 / 5",
-          priceRange: "26,596",
+          priceRange: "974",
         },
         {
           id: 2,
-          name: "K Club Ubud",
-          imgSrc:
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/470468308.jpg?k=2b09bd6361cb5324328af5617f10ebd5665b96e4b723d5a0010a0691702c26fd&o=&hp=1",
+          name: "Parthi Puri Ubud",
+          imgSrc: parthipuriubud,
           type: "Resort",
           description:
-            "K-Club Ubud is composed of 30 fully service villas completely integrated into the environment, with an organic restaurant, a new kind of spa, and an inviting pool club. The fitness and yoga facilities overlook the calm, green jungle.",
-          facilities: ["Pool", "Spa"],
+            "Huge room with a huge bed, literally an amazing bed with 4 pillows and 2 cushions. Great staff, super green environment.",
+          facilities: ["Parking", "WiFi", "AC"],
           rating: "4.8 / 5",
-          priceRange: "26,596",
+          priceRange: "977",
         },
         {
           id: 3,
-          name: "K Club Ubud",
-          imgSrc:
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/470468308.jpg?k=2b09bd6361cb5324328af5617f10ebd5665b96e4b723d5a0010a0691702c26fd&o=&hp=1",
+          name: "GUSTI HOMESTAY BALI",
+          imgSrc: gustihomestaykerobokan,
           type: "Resort",
           description:
-            "K-Club Ubud is composed of 30 fully service villas completely integrated into the environment, with an organic restaurant, a new kind of spa, and an inviting pool club. The fitness and yoga facilities overlook the calm, green jungle.",
+            "Gusti Homestay Bali is located in Seminyak, famous for good restaurants such as Potato Head Beach Club, Motel Mexicola Restaurant and Ku De Ta Restaurant.",
           facilities: ["Pool", "Spa"],
           rating: "4.8 / 5",
           priceRange: "26,596",
         },
         {
           id: 4,
-          name: "K Club Ubud",
-          imgSrc:
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/470468308.jpg?k=2b09bd6361cb5324328af5617f10ebd5665b96e4b723d5a0010a0691702c26fd&o=&hp=1",
+          name: "Bali Yogi",
+          imgSrc: BaliYogi,
           type: "Resort",
           description:
-            "K-Club Ubud is composed of 30 fully service villas completely integrated into the environment, with an organic restaurant, a new kind of spa, and an inviting pool club. The fitness and yoga facilities overlook the calm, green jungle.",
+            "Situated in Amed, within a few steps of Amed Beach and 1.1 km of Jemeluk Beach, Bali Yogi offers accommodation with pool with a view and free WiFi as well as free private parking",
           facilities: ["Pool", "Spa"],
           rating: "4.8 / 5",
           priceRange: "26,596",
         },
-        {
-          id: 5,
-          name: "K Club Ubud",
-          imgSrc:
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/470468308.jpg?k=2b09bd6361cb5324328af5617f10ebd5665b96e4b723d5a0010a0691702c26fd&o=&hp=1",
-          type: "Resort",
-          description:
-            "K-Club Ubud is composed of 30 fully service villas completely integrated into the environment, with an organic restaurant, a new kind of spa, and an inviting pool club. The fitness and yoga facilities overlook the calm, green jungle.",
-          facilities: ["Pool", "Spa"],
-          rating: "4.8 / 5",
-          priceRange: "26,596",
-        },
-        {
-          id: 6,
-          name: "K Club Ubud",
-          imgSrc:
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/470468308.jpg?k=2b09bd6361cb5324328af5617f10ebd5665b96e4b723d5a0010a0691702c26fd&o=&hp=1",
-          type: "Resort",
-          description:
-            "K-Club Ubud is composed of 30 fully service villas completely integrated into the environment, with an organic restaurant, a new kind of spa, and an inviting pool club. The fitness and yoga facilities overlook the calm, green jungle.",
-          facilities: ["Pool", "Spa"],
-          rating: "4.8 / 5",
-          priceRange: "26,596",
-        },
-        {
-          id: 7,
-          name: "K Club Ubud",
-          imgSrc:
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/470468308.jpg?k=2b09bd6361cb5324328af5617f10ebd5665b96e4b723d5a0010a0691702c26fd&o=&hp=1",
-          type: "Resort",
-          description:
-            "K-Club Ubud is composed of 30 fully service villas completely integrated into the environment, with an organic restaurant, a new kind of spa, and an inviting pool club. The fitness and yoga facilities overlook the calm, green jungle.",
-          facilities: ["Pool", "Spa"],
-          rating: "4.8 / 5",
-          priceRange: "26,596",
-        },
-
-        // ... add more accommodations
       ],
       diningOptions: [
         {
-          name: "Kayuputi",
-          image:
-            "https://lh3.googleusercontent.com/p/AF1QipP6SGAJlut3zuiXhP50VTTWuMvQoQPOlpcmAaTe=s680-w680-h510",
+          name: "AKAR by K Club Ubud",
+          image: AKAR,
           cuisine: "Local cuisine",
           rating: "4.7 / 5",
           priceRange: "₹₹₹₹",
         },
         {
-          name: "Kayuputi",
-          image:
-            "https://lh3.googleusercontent.com/p/AF1QipP6SGAJlut3zuiXhP50VTTWuMvQoQPOlpcmAaTe=s680-w680-h510",
+          name: "Kepitu Restaurant At The Kayon Resort",
+          image: KepituRestaurant,
           cuisine: "Local cuisine",
           rating: "4.7 / 5",
           priceRange: "₹₹₹₹",
         },
         {
-          name: "Kayuputi",
-          image:
-            "https://lh3.googleusercontent.com/p/AF1QipP6SGAJlut3zuiXhP50VTTWuMvQoQPOlpcmAaTe=s680-w680-h510",
+          name: "Reef Beach Club",
+          image: ReefBeachClub,
           cuisine: "Local cuisine",
           rating: "4.7 / 5",
           priceRange: "₹₹₹₹",
         },
-        {
-          name: "Kayuputi",
-          image:
-            "https://lh3.googleusercontent.com/p/AF1QipP6SGAJlut3zuiXhP50VTTWuMvQoQPOlpcmAaTe=s680-w680-h510",
-          cuisine: "Local cuisine",
-          rating: "4.7 / 5",
-          priceRange: "₹₹₹₹",
-        },
-
-        // ... add more dining options
       ],
       localSpecialties: [
         {
-          name: "Babi Guling",
-          imgSrc:
-            "https://static.thehoneycombers.com/wp-content/uploads/sites/4/2014/04/Babi-Guling-via-Jack-the-Traveller.jpg",
+          name: "Mie Goreng",
+          imgSrc: MieGoreng,
           description:
-            "Probably Bali’s most iconic local dish, babi guling (also known as suckling pig) is one nose-to-tail delicacy that you have to try. It’s usually served with rice, pork sausage, urapan (a vegetable salad in coconut chilli dressing), huge cuts of spice-rubbed, spit-roasted meat and the crispiest, crunchiest and most scrumptiously flavoured skin.",
+            "A dish that translates to fried noodles and is similar to chow mein, but with an Indonesian twist.",
         },
         {
-          name: "Nasi Campur",
-          imgSrc:
-            "https://static.thehoneycombers.com/wp-content/uploads/sites/4/2014/04/Nasi-Campur-Bohemian-Traveller.jpg",
+          name: "Betutu",
+          imgSrc: Betutu,
           description:
-            "Balinese nasi campur (literally meaning mixed rice) is a fave food with locals (and us!) who typically dine on this bit-of-everything dish for breakfast, brunch, lunch and dinner. ...",
+            "A traditional Balinese dish made by baking chicken or duck in a fire husk.",
         },
         {
           name: "Sate Lilit Ikan",
@@ -379,84 +324,60 @@ const destinationsData = [
       nearbyPlaces: [
         {
           id: 1,
-          name: "Waterbom Bali",
-          imageSrc:
-            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/53/5e/42/photo0jpg.jpg?w=500&h=400&s=1",
-          imageAlt: "Bali, Indonesian",
+          name: "Eiffel Tower",
+          imageSrc: eiffeltower,
+          imageAlt: "Eiffel Tower",
           distanceFromAirport: "2 miles",
           description:
-            "Lively water park with a rides for all ages, plus restaurants, a food court & a swim-up bar.",
-          address:
-            " Jl. Kartika Plaza, Tuban, Kec. Kuta, Kabupaten Badung, Bali 80361, Indonesia",
-          hours: " 9 am to 6 pm",
+            "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France. It is named after the engineer Gustave Eiffel, whose company designed and built the tower from 1887 to 1889.",
+          address: "Champ de Mars, 5 Av. Anatole France, 75007 Paris, France",
+          hours: "--",
         },
         {
           id: 2,
-          name: "Waterbom Bali",
-          imageSrc:
-            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/53/5e/42/photo0jpg.jpg?w=500&h=400&s=1",
-          imageAlt: "Bali, Indonesian",
+          name: "Louvre Museum",
+          imageSrc: LouvreMuseum,
+          imageAlt: "Louvre Museumn",
           distanceFromAirport: "2 miles",
           description:
-            "Lively water park with a rides for all ages, plus restaurants, a food court & a swim-up bar.",
-          address:
-            " Jl. Kartika Plaza, Tuban, Kec. Kuta, Kabupaten Badung, Bali 80361, Indonesia",
-          hours: " 9 am to 6 pm",
+            "The Louvre, or the Louvre Museum, is a national art museum in Paris, France.",
+          address: "75001 Paris, France",
+          hours: "9 am to 6 pm",
         },
         {
           id: 3,
-          name: "Waterbom Bali",
-          imageSrc:
-            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/53/5e/42/photo0jpg.jpg?w=500&h=400&s=1",
-          imageAlt: "Bali, Indonesian",
+          name: "Musée d'Orsay",
+          imageSrc: MuséedOrsay,
+          imageAlt: "Musée d'Orsay",
           distanceFromAirport: "2 miles",
           description:
-            "Lively water park with a rides for all ages, plus restaurants, a food court & a swim-up bar.",
-          address:
-            " Jl. Kartika Plaza, Tuban, Kec. Kuta, Kabupaten Badung, Bali 80361, Indonesia",
+            "The Musée d'Orsay is a museum in Paris, France, on the Left Bank of the Seine",
+          address: "Esplanade Valéry Giscard d'Estaing, 75007 Paris, France",
           hours: "9 am to 6 pm",
         },
         {
           id: 4,
-          name: "Waterbom Bali",
-          imageSrc:
-            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/53/5e/42/photo0jpg.jpg?w=500&h=400&s=1",
-          imageAlt: "Bali, Indonesian",
+          name: "Fondation Louis Vuitton",
+          imageSrc: FondationLouisVuitton,
+          imageAlt: "Fondation Louis Vuitton",
           distanceFromAirport: "2 miles",
           description:
-            "Lively water park with a rides for all ages, plus restaurants, a food court & a swim-up bar.",
-          address:
-            " Jl. Kartika Plaza, Tuban, Kec. Kuta, Kabupaten Badung, Bali 80361, Indonesia",
+            "The Louis Vuitton Foundation, previously Louis Vuitton Foundation for Creation, is a French art museum and cultura.",
+          address: "8 Av. du Mahatma Gandhi, 75116 Paris, France",
           hours: "9 am to 6 pm",
         },
         {
           id: 5,
-          name: "Waterbom Bali",
+          name: "Jardin du Luxembourg",
           imageSrc:
             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/53/5e/42/photo0jpg.jpg?w=500&h=400&s=1",
-          imageAlt: "Bali, Indonesian",
+          imageAlt: JardinduLuxembourg,
           distanceFromAirport: "2 miles",
           description:
-            "Lively water park with a rides for all ages, plus restaurants, a food court & a swim-up bar.",
-          address:
-            " Jl. Kartika Plaza, Tuban, Kec. Kuta, Kabupaten Badung, Bali 80361, Indonesia",
+            "The Jardin du Luxembourg, known in English as the Luxembourg Garden.",
+          address: "75006 Paris, France",
           hours: "9 am to 6 pm",
         },
-        {
-          id: 6,
-          name: "Waterbom Bali",
-          imageSrc:
-            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/53/5e/42/photo0jpg.jpg?w=500&h=400&s=1",
-          imageAlt: "Bali, Indonesian",
-          distanceFromAirport: "2 miles",
-          description:
-            "Lively water park with a rides for all ages, plus restaurants, a food court & a swim-up bar.",
-          address:
-            " Jl. Kartika Plaza, Tuban, Kec. Kuta, Kabupaten Badung, Bali 80361, Indonesia",
-          hours: "9 am to 6 pm",
-        },
-
-        // ... add more nearby places
       ],
 
       bestTimeToVisit: {
@@ -504,12 +425,11 @@ const destinationsData = [
       accommodations: [
         {
           id: 1,
-          name: "K Club Ubud",
-          imgSrc:
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/470468308.jpg?k=2b09bd6361cb5324328af5617f10ebd5665b96e4b723d5a0010a0691702c26fd&o=&hp=1",
-          type: "Resort",
+          name: "citizenM Paris Champs-Elysees",
+          imgSrc: parischarlesdegaulle,
+          type: "Hotels",
           description:
-            "K-Club Ubud is composed of 30 fully service villas completely integrated into the environment, with an organic restaurant, a new kind of spa, and an inviting pool club. The fitness and yoga facilities overlook the calm, green jungle.",
+            "CitizenM gives you affordable luxury in a prime location. When you arrive at our can't-miss hotel, there's no long queue at reception.",
           facilities: ["Pool", "Spa"],
           rating: "4.8 / 5",
           priceRange: "26,596",
@@ -540,42 +460,6 @@ const destinationsData = [
         },
         {
           id: 4,
-          name: "K Club Ubud",
-          imgSrc:
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/470468308.jpg?k=2b09bd6361cb5324328af5617f10ebd5665b96e4b723d5a0010a0691702c26fd&o=&hp=1",
-          type: "Resort",
-          description:
-            "K-Club Ubud is composed of 30 fully service villas completely integrated into the environment, with an organic restaurant, a new kind of spa, and an inviting pool club. The fitness and yoga facilities overlook the calm, green jungle.",
-          facilities: ["Pool", "Spa"],
-          rating: "4.8 / 5",
-          priceRange: "26,596",
-        },
-        {
-          id: 5,
-          name: "K Club Ubud",
-          imgSrc:
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/470468308.jpg?k=2b09bd6361cb5324328af5617f10ebd5665b96e4b723d5a0010a0691702c26fd&o=&hp=1",
-          type: "Resort",
-          description:
-            "K-Club Ubud is composed of 30 fully service villas completely integrated into the environment, with an organic restaurant, a new kind of spa, and an inviting pool club. The fitness and yoga facilities overlook the calm, green jungle.",
-          facilities: ["Pool", "Spa"],
-          rating: "4.8 / 5",
-          priceRange: "26,596",
-        },
-        {
-          id: 6,
-          name: "K Club Ubud",
-          imgSrc:
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/470468308.jpg?k=2b09bd6361cb5324328af5617f10ebd5665b96e4b723d5a0010a0691702c26fd&o=&hp=1",
-          type: "Resort",
-          description:
-            "K-Club Ubud is composed of 30 fully service villas completely integrated into the environment, with an organic restaurant, a new kind of spa, and an inviting pool club. The fitness and yoga facilities overlook the calm, green jungle.",
-          facilities: ["Pool", "Spa"],
-          rating: "4.8 / 5",
-          priceRange: "26,596",
-        },
-        {
-          id: 7,
           name: "K Club Ubud",
           imgSrc:
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/470468308.jpg?k=2b09bd6361cb5324328af5617f10ebd5665b96e4b723d5a0010a0691702c26fd&o=&hp=1",
@@ -667,7 +551,7 @@ const destinationsData = [
     imageAlt: "Taj Mahal,India",
     category: "Highest Rated",
     additionalDetails: {
-      DestinationName: "Bali,Indonesia",
+      DestinationName: "Taj Mahal,India",
 
       images: [
         "https://media2.thrillophilia.com/images/photos/000/163/349/original/1562917404_Group-of-hikers-walking-on-the-Caldera-of-Volcano-of-Batur-Bali.jpg?w=753&h=450&dpr=1.0",
@@ -683,8 +567,8 @@ const destinationsData = [
         // ... add more image URLs here
       ],
       location: {
-        country: "Indonesia",
-        city: "Bali",
+        country: "India",
+        city: "Agra",
         description:
           "Home to thousand amazing animals representing more than 100 species, including some of rare and endangered species. Combining Balinese cultural ambience with African Savannah, Bali Safari and Marine Park features the following exhibits featuring Sumatran elephant, Sumatran tiger, white tiger, leopard, komodo dragon are just some of the fascinating creatures that can be seen at the Bali Safari and Marine Park. Fulfilling its mission of conservation, education and recreation through one of our attractive Elephant Show devoted to animals involved in conservation and education projects and so much more excitement by riding the elephant with our Elephant Back Safari around the African Savannah and get to see your favorite animal up close! and and there's a night into the wild names Night Safari where you can ride with amazing wild experiences ever. In Animal Encounter make the Bali Safari and Marine Park's leading family attraction and adventure in Bali.",
         coordinates: {
@@ -983,7 +867,7 @@ const destinationsData = [
     imageAlt: "Jaisalmer,India",
     category: "Most Popular",
     additionalDetails: {
-      DestinationName: "Bali,Indonesia",
+      DestinationName: "Jaisalmer, India",
 
       images: [
         "https://media2.thrillophilia.com/images/photos/000/163/349/original/1562917404_Group-of-hikers-walking-on-the-Caldera-of-Volcano-of-Batur-Bali.jpg?w=753&h=450&dpr=1.0",
@@ -999,8 +883,8 @@ const destinationsData = [
         // ... add more image URLs here
       ],
       location: {
-        country: "Indonesia",
-        city: "Bali",
+        country: "India",
+        city: "Jaisalmer",
         description:
           "Home to thousand amazing animals representing more than 100 species, including some of rare and endangered species. Combining Balinese cultural ambience with African Savannah, Bali Safari and Marine Park features the following exhibits featuring Sumatran elephant, Sumatran tiger, white tiger, leopard, komodo dragon are just some of the fascinating creatures that can be seen at the Bali Safari and Marine Park. Fulfilling its mission of conservation, education and recreation through one of our attractive Elephant Show devoted to animals involved in conservation and education projects and so much more excitement by riding the elephant with our Elephant Back Safari around the African Savannah and get to see your favorite animal up close! and and there's a night into the wild names Night Safari where you can ride with amazing wild experiences ever. In Animal Encounter make the Bali Safari and Marine Park's leading family attraction and adventure in Bali.",
         coordinates: {
@@ -1299,7 +1183,7 @@ const destinationsData = [
     imageAlt: "",
     category: "Most Visited",
     additionalDetails: {
-      DestinationName: "Bali,Indonesia",
+      DestinationName: "Amalfi Coast,Italy",
 
       images: [
         "https://media2.thrillophilia.com/images/photos/000/163/349/original/1562917404_Group-of-hikers-walking-on-the-Caldera-of-Volcano-of-Batur-Bali.jpg?w=753&h=450&dpr=1.0",
@@ -1315,8 +1199,8 @@ const destinationsData = [
         // ... add more image URLs here
       ],
       location: {
-        country: "Indonesia",
-        city: "Bali",
+        country: "Italy",
+        city: "Amalfi",
         description:
           "Home to thousand amazing animals representing more than 100 species, including some of rare and endangered species. Combining Balinese cultural ambience with African Savannah, Bali Safari and Marine Park features the following exhibits featuring Sumatran elephant, Sumatran tiger, white tiger, leopard, komodo dragon are just some of the fascinating creatures that can be seen at the Bali Safari and Marine Park. Fulfilling its mission of conservation, education and recreation through one of our attractive Elephant Show devoted to animals involved in conservation and education projects and so much more excitement by riding the elephant with our Elephant Back Safari around the African Savannah and get to see your favorite animal up close! and and there's a night into the wild names Night Safari where you can ride with amazing wild experiences ever. In Animal Encounter make the Bali Safari and Marine Park's leading family attraction and adventure in Bali.",
         coordinates: {
@@ -1603,9 +1487,9 @@ const destinationsData = [
   {
     id: 6,
     name: "Patagonia",
-    continent: " South America",
-    country: "Argentina and Chile",
-    city: "",
+    continent: "South America",
+    country: "Argentina",
+    city: "Patagonia",
     state: "",
     description:
       "Paris is an Indonesian island known for its forested volcanic mountains, iconic rice paddies, beaches, and coral reefs.",
@@ -1615,7 +1499,7 @@ const destinationsData = [
     imageAlt: "",
     category: "Most Visited",
     additionalDetails: {
-      DestinationName: "Bali,Indonesia",
+      DestinationName: "Patagonia, Argentina",
 
       images: [
         "https://media2.thrillophilia.com/images/photos/000/163/349/original/1562917404_Group-of-hikers-walking-on-the-Caldera-of-Volcano-of-Batur-Bali.jpg?w=753&h=450&dpr=1.0",
@@ -1631,8 +1515,8 @@ const destinationsData = [
         // ... add more image URLs here
       ],
       location: {
-        country: "Indonesia",
-        city: "Bali",
+        country: "Argentina",
+        city: "Patagonia",
         description:
           "Home to thousand amazing animals representing more than 100 species, including some of rare and endangered species. Combining Balinese cultural ambience with African Savannah, Bali Safari and Marine Park features the following exhibits featuring Sumatran elephant, Sumatran tiger, white tiger, leopard, komodo dragon are just some of the fascinating creatures that can be seen at the Bali Safari and Marine Park. Fulfilling its mission of conservation, education and recreation through one of our attractive Elephant Show devoted to animals involved in conservation and education projects and so much more excitement by riding the elephant with our Elephant Back Safari around the African Savannah and get to see your favorite animal up close! and and there's a night into the wild names Night Safari where you can ride with amazing wild experiences ever. In Animal Encounter make the Bali Safari and Marine Park's leading family attraction and adventure in Bali.",
         coordinates: {
@@ -1928,10 +1812,10 @@ const destinationsData = [
     rating: 3,
     price: "$1000",
     imageSrc: Cancun,
-    imageAlt: "",
+    imageAlt: "Cancun, Mexico",
     category: "Trending Destinations",
     additionalDetails: {
-      DestinationName: "Bali,Indonesia",
+      DestinationName: "Cancun, Mexico",
 
       images: [
         "https://media2.thrillophilia.com/images/photos/000/163/349/original/1562917404_Group-of-hikers-walking-on-the-Caldera-of-Volcano-of-Batur-Bali.jpg?w=753&h=450&dpr=1.0",
@@ -1947,8 +1831,8 @@ const destinationsData = [
         // ... add more image URLs here
       ],
       location: {
-        country: "Indonesia",
-        city: "Bali",
+        country: "Mexico",
+        city: "Cancun",
         description:
           "Home to thousand amazing animals representing more than 100 species, including some of rare and endangered species. Combining Balinese cultural ambience with African Savannah, Bali Safari and Marine Park features the following exhibits featuring Sumatran elephant, Sumatran tiger, white tiger, leopard, komodo dragon are just some of the fascinating creatures that can be seen at the Bali Safari and Marine Park. Fulfilling its mission of conservation, education and recreation through one of our attractive Elephant Show devoted to animals involved in conservation and education projects and so much more excitement by riding the elephant with our Elephant Back Safari around the African Savannah and get to see your favorite animal up close! and and there's a night into the wild names Night Safari where you can ride with amazing wild experiences ever. In Animal Encounter make the Bali Safari and Marine Park's leading family attraction and adventure in Bali.",
         coordinates: {
@@ -2244,10 +2128,10 @@ const destinationsData = [
     rating: 5,
     price: "$1000",
     imageSrc: SanFrancisco,
-    imageAlt: "",
+    imageAlt: "San Francisco, United States",
     category: "Trending Destinations",
     additionalDetails: {
-      DestinationName: "Bali,Indonesia",
+      DestinationName: "San Francisco, United States",
 
       images: [
         "https://media2.thrillophilia.com/images/photos/000/163/349/original/1562917404_Group-of-hikers-walking-on-the-Caldera-of-Volcano-of-Batur-Bali.jpg?w=753&h=450&dpr=1.0",
@@ -2263,8 +2147,8 @@ const destinationsData = [
         // ... add more image URLs here
       ],
       location: {
-        country: "Indonesia",
-        city: "Bali",
+        country: "United States",
+        city: "San Francisco",
         description:
           "Home to thousand amazing animals representing more than 100 species, including some of rare and endangered species. Combining Balinese cultural ambience with African Savannah, Bali Safari and Marine Park features the following exhibits featuring Sumatran elephant, Sumatran tiger, white tiger, leopard, komodo dragon are just some of the fascinating creatures that can be seen at the Bali Safari and Marine Park. Fulfilling its mission of conservation, education and recreation through one of our attractive Elephant Show devoted to animals involved in conservation and education projects and so much more excitement by riding the elephant with our Elephant Back Safari around the African Savannah and get to see your favorite animal up close! and and there's a night into the wild names Night Safari where you can ride with amazing wild experiences ever. In Animal Encounter make the Bali Safari and Marine Park's leading family attraction and adventure in Bali.",
         coordinates: {
@@ -2560,10 +2444,10 @@ const destinationsData = [
     rating: 4.5,
     price: "$1000",
     imageSrc: NiagaraFall,
-    imageAlt: "",
+    imageAlt: "Niagara Falls,Canada",
     category: "Trending Destinations",
     additionalDetails: {
-      DestinationName: "Bali,Indonesia",
+      DestinationName: "Niagara Falls,Canada",
 
       images: [
         "https://media2.thrillophilia.com/images/photos/000/163/349/original/1562917404_Group-of-hikers-walking-on-the-Caldera-of-Volcano-of-Batur-Bali.jpg?w=753&h=450&dpr=1.0",
@@ -2579,8 +2463,8 @@ const destinationsData = [
         // ... add more image URLs here
       ],
       location: {
-        country: "Indonesia",
-        city: "Bali",
+        country: "Canada",
+        city: "Niagara Falls",
         description:
           "Home to thousand amazing animals representing more than 100 species, including some of rare and endangered species. Combining Balinese cultural ambience with African Savannah, Bali Safari and Marine Park features the following exhibits featuring Sumatran elephant, Sumatran tiger, white tiger, leopard, komodo dragon are just some of the fascinating creatures that can be seen at the Bali Safari and Marine Park. Fulfilling its mission of conservation, education and recreation through one of our attractive Elephant Show devoted to animals involved in conservation and education projects and so much more excitement by riding the elephant with our Elephant Back Safari around the African Savannah and get to see your favorite animal up close! and and there's a night into the wild names Night Safari where you can ride with amazing wild experiences ever. In Animal Encounter make the Bali Safari and Marine Park's leading family attraction and adventure in Bali.",
         coordinates: {
@@ -2867,8 +2751,8 @@ const destinationsData = [
   {
     id: 10,
     name: "Yellowstone National Park",
-    continent: " North America",
-    country: " United States",
+    continent: "North America",
+    country: "United States",
     state: "Wyoming",
     city: "",
     description:
@@ -2876,10 +2760,10 @@ const destinationsData = [
     rating: 5,
     price: "$1000",
     imageSrc: YellowStoneNationalPark,
-    imageAlt: "",
+    imageAlt: "Yellowstone National Park, United States",
     category: "Trending Destinations",
     additionalDetails: {
-      DestinationName: "Bali,Indonesia",
+      DestinationName: "Yellowstone National Park, United States",
 
       images: [
         "https://media2.thrillophilia.com/images/photos/000/163/349/original/1562917404_Group-of-hikers-walking-on-the-Caldera-of-Volcano-of-Batur-Bali.jpg?w=753&h=450&dpr=1.0",
@@ -2895,8 +2779,8 @@ const destinationsData = [
         // ... add more image URLs here
       ],
       location: {
-        country: "Indonesia",
-        city: "Bali",
+        country: "United States",
+        city: "Wyoming",
         description:
           "Home to thousand amazing animals representing more than 100 species, including some of rare and endangered species. Combining Balinese cultural ambience with African Savannah, Bali Safari and Marine Park features the following exhibits featuring Sumatran elephant, Sumatran tiger, white tiger, leopard, komodo dragon are just some of the fascinating creatures that can be seen at the Bali Safari and Marine Park. Fulfilling its mission of conservation, education and recreation through one of our attractive Elephant Show devoted to animals involved in conservation and education projects and so much more excitement by riding the elephant with our Elephant Back Safari around the African Savannah and get to see your favorite animal up close! and and there's a night into the wild names Night Safari where you can ride with amazing wild experiences ever. In Animal Encounter make the Bali Safari and Marine Park's leading family attraction and adventure in Bali.",
         coordinates: {
@@ -3192,10 +3076,10 @@ const destinationsData = [
     rating: 5,
     price: "$1000",
     imageSrc: GreatBarrierReef,
-    imageAlt: "",
+    imageAlt: "Great Barrier Reef,Australia",
     category: "Best Value for Money",
     additionalDetails: {
-      DestinationName: "Bali,Indonesia",
+      DestinationName: "Great Barrier Reef,Australia",
 
       images: [
         "https://media2.thrillophilia.com/images/photos/000/163/349/original/1562917404_Group-of-hikers-walking-on-the-Caldera-of-Volcano-of-Batur-Bali.jpg?w=753&h=450&dpr=1.0",
@@ -3211,8 +3095,8 @@ const destinationsData = [
         // ... add more image URLs here
       ],
       location: {
-        country: "Indonesia",
-        city: "Bali",
+        country: "Australia",
+        city: "Queensland",
         description:
           "Home to thousand amazing animals representing more than 100 species, including some of rare and endangered species. Combining Balinese cultural ambience with African Savannah, Bali Safari and Marine Park features the following exhibits featuring Sumatran elephant, Sumatran tiger, white tiger, leopard, komodo dragon are just some of the fascinating creatures that can be seen at the Bali Safari and Marine Park. Fulfilling its mission of conservation, education and recreation through one of our attractive Elephant Show devoted to animals involved in conservation and education projects and so much more excitement by riding the elephant with our Elephant Back Safari around the African Savannah and get to see your favorite animal up close! and and there's a night into the wild names Night Safari where you can ride with amazing wild experiences ever. In Animal Encounter make the Bali Safari and Marine Park's leading family attraction and adventure in Bali.",
         coordinates: {
@@ -3508,10 +3392,10 @@ const destinationsData = [
     rating: 5,
     price: "$1000",
     imageSrc: Santorini,
-    imageAlt: "",
+    imageAlt: "Santorini,Greece",
     category: "Best Value for Money",
     additionalDetails: {
-      DestinationName: "Bali,Indonesia",
+      DestinationName: "Santorini,Greece",
 
       images: [
         "https://media2.thrillophilia.com/images/photos/000/163/349/original/1562917404_Group-of-hikers-walking-on-the-Caldera-of-Volcano-of-Batur-Bali.jpg?w=753&h=450&dpr=1.0",
@@ -3527,8 +3411,8 @@ const destinationsData = [
         // ... add more image URLs here
       ],
       location: {
-        country: "Indonesia",
-        city: "Bali",
+        country: "Greece",
+        city: "Santorini",
         description:
           "Home to thousand amazing animals representing more than 100 species, including some of rare and endangered species. Combining Balinese cultural ambience with African Savannah, Bali Safari and Marine Park features the following exhibits featuring Sumatran elephant, Sumatran tiger, white tiger, leopard, komodo dragon are just some of the fascinating creatures that can be seen at the Bali Safari and Marine Park. Fulfilling its mission of conservation, education and recreation through one of our attractive Elephant Show devoted to animals involved in conservation and education projects and so much more excitement by riding the elephant with our Elephant Back Safari around the African Savannah and get to see your favorite animal up close! and and there's a night into the wild names Night Safari where you can ride with amazing wild experiences ever. In Animal Encounter make the Bali Safari and Marine Park's leading family attraction and adventure in Bali.",
         coordinates: {
@@ -3824,10 +3708,10 @@ const destinationsData = [
     rating: 5,
     price: "$1000",
     imageSrc: Florence,
-    imageAlt: "",
+    imageAlt: "Florence,Italy",
     category: "Best Value for Money",
     additionalDetails: {
-      DestinationName: "Bali,Indonesia",
+      DestinationName: "Florence,Italy",
 
       images: [
         "https://media2.thrillophilia.com/images/photos/000/163/349/original/1562917404_Group-of-hikers-walking-on-the-Caldera-of-Volcano-of-Batur-Bali.jpg?w=753&h=450&dpr=1.0",
@@ -3843,8 +3727,8 @@ const destinationsData = [
         // ... add more image URLs here
       ],
       location: {
-        country: "Indonesia",
-        city: "Bali",
+        country: "Italy",
+        city: "Florence",
         description:
           "Home to thousand amazing animals representing more than 100 species, including some of rare and endangered species. Combining Balinese cultural ambience with African Savannah, Bali Safari and Marine Park features the following exhibits featuring Sumatran elephant, Sumatran tiger, white tiger, leopard, komodo dragon are just some of the fascinating creatures that can be seen at the Bali Safari and Marine Park. Fulfilling its mission of conservation, education and recreation through one of our attractive Elephant Show devoted to animals involved in conservation and education projects and so much more excitement by riding the elephant with our Elephant Back Safari around the African Savannah and get to see your favorite animal up close! and and there's a night into the wild names Night Safari where you can ride with amazing wild experiences ever. In Animal Encounter make the Bali Safari and Marine Park's leading family attraction and adventure in Bali.",
         coordinates: {
@@ -4132,7 +4016,7 @@ const destinationsData = [
     id: 14,
     name: "Dubai",
     continent: "Asia",
-    country: "",
+    country: "United Arab Emirates",
     state: "United Arab Emirates",
     city: "",
     description:
@@ -4140,10 +4024,10 @@ const destinationsData = [
     rating: 5,
     price: "$1000",
     imageSrc: Dubai,
-    imageAlt: "",
+    imageAlt: "Dubai,United Arab Emirates",
     category: "Most Popular",
     additionalDetails: {
-      DestinationName: "Bali,Indonesia",
+      DestinationName: "Dubai,United Arab Emirates",
 
       images: [
         "https://media2.thrillophilia.com/images/photos/000/163/349/original/1562917404_Group-of-hikers-walking-on-the-Caldera-of-Volcano-of-Batur-Bali.jpg?w=753&h=450&dpr=1.0",
@@ -4159,8 +4043,8 @@ const destinationsData = [
         // ... add more image URLs here
       ],
       location: {
-        country: "Indonesia",
-        city: "Bali",
+        country: "United Arab Emirates",
+        city: "Dubai",
         description:
           "Home to thousand amazing animals representing more than 100 species, including some of rare and endangered species. Combining Balinese cultural ambience with African Savannah, Bali Safari and Marine Park features the following exhibits featuring Sumatran elephant, Sumatran tiger, white tiger, leopard, komodo dragon are just some of the fascinating creatures that can be seen at the Bali Safari and Marine Park. Fulfilling its mission of conservation, education and recreation through one of our attractive Elephant Show devoted to animals involved in conservation and education projects and so much more excitement by riding the elephant with our Elephant Back Safari around the African Savannah and get to see your favorite animal up close! and and there's a night into the wild names Night Safari where you can ride with amazing wild experiences ever. In Animal Encounter make the Bali Safari and Marine Park's leading family attraction and adventure in Bali.",
         coordinates: {
@@ -4456,10 +4340,10 @@ const destinationsData = [
     rating: 4,
     price: "$1000",
     imageSrc: MachuPicchu,
-    imageAlt: "",
+    imageAlt: "Machu Picchu,Peru",
     category: "Most Visited",
     additionalDetails: {
-      DestinationName: "Bali,Indonesia",
+      DestinationName: "Machu Picchu,Peru",
 
       images: [
         "https://media2.thrillophilia.com/images/photos/000/163/349/original/1562917404_Group-of-hikers-walking-on-the-Caldera-of-Volcano-of-Batur-Bali.jpg?w=753&h=450&dpr=1.0",
@@ -4475,8 +4359,8 @@ const destinationsData = [
         // ... add more image URLs here
       ],
       location: {
-        country: "Indonesia",
-        city: "Bali",
+        country: "Peru",
+        city: "Cusco",
         description:
           "Home to thousand amazing animals representing more than 100 species, including some of rare and endangered species. Combining Balinese cultural ambience with African Savannah, Bali Safari and Marine Park features the following exhibits featuring Sumatran elephant, Sumatran tiger, white tiger, leopard, komodo dragon are just some of the fascinating creatures that can be seen at the Bali Safari and Marine Park. Fulfilling its mission of conservation, education and recreation through one of our attractive Elephant Show devoted to animals involved in conservation and education projects and so much more excitement by riding the elephant with our Elephant Back Safari around the African Savannah and get to see your favorite animal up close! and and there's a night into the wild names Night Safari where you can ride with amazing wild experiences ever. In Animal Encounter make the Bali Safari and Marine Park's leading family attraction and adventure in Bali.",
         coordinates: {
@@ -4772,10 +4656,10 @@ const destinationsData = [
     rating: 4,
     price: "$1000",
     imageSrc: Sydney,
-    imageAlt: "",
+    imageAlt: "Sydney,Australia",
     category: "Most Visited",
     additionalDetails: {
-      DestinationName: "Bali,Indonesia",
+      DestinationName: "Sydney,Australia",
 
       images: [
         "https://media2.thrillophilia.com/images/photos/000/163/349/original/1562917404_Group-of-hikers-walking-on-the-Caldera-of-Volcano-of-Batur-Bali.jpg?w=753&h=450&dpr=1.0",
@@ -4791,8 +4675,8 @@ const destinationsData = [
         // ... add more image URLs here
       ],
       location: {
-        country: "Indonesia",
-        city: "Bali",
+        country: "Australia",
+        city: "Sydney",
         description:
           "Home to thousand amazing animals representing more than 100 species, including some of rare and endangered species. Combining Balinese cultural ambience with African Savannah, Bali Safari and Marine Park features the following exhibits featuring Sumatran elephant, Sumatran tiger, white tiger, leopard, komodo dragon are just some of the fascinating creatures that can be seen at the Bali Safari and Marine Park. Fulfilling its mission of conservation, education and recreation through one of our attractive Elephant Show devoted to animals involved in conservation and education projects and so much more excitement by riding the elephant with our Elephant Back Safari around the African Savannah and get to see your favorite animal up close! and and there's a night into the wild names Night Safari where you can ride with amazing wild experiences ever. In Animal Encounter make the Bali Safari and Marine Park's leading family attraction and adventure in Bali.",
         coordinates: {
@@ -5088,10 +4972,10 @@ const destinationsData = [
     rating: 5,
     price: "$1000",
     imageSrc: Maui,
-    imageAlt: "",
+    imageAlt: "Maui,United States",
     category: "Highest Rated",
     additionalDetails: {
-      DestinationName: "Bali,Indonesia",
+      DestinationName: "Maui, United States",
 
       images: [
         "https://media2.thrillophilia.com/images/photos/000/163/349/original/1562917404_Group-of-hikers-walking-on-the-Caldera-of-Volcano-of-Batur-Bali.jpg?w=753&h=450&dpr=1.0",
@@ -5107,8 +4991,8 @@ const destinationsData = [
         // ... add more image URLs here
       ],
       location: {
-        country: "Indonesia",
-        city: "Bali",
+        country: "United States",
+        city: "Maui County",
         description:
           "Home to thousand amazing animals representing more than 100 species, including some of rare and endangered species. Combining Balinese cultural ambience with African Savannah, Bali Safari and Marine Park features the following exhibits featuring Sumatran elephant, Sumatran tiger, white tiger, leopard, komodo dragon are just some of the fascinating creatures that can be seen at the Bali Safari and Marine Park. Fulfilling its mission of conservation, education and recreation through one of our attractive Elephant Show devoted to animals involved in conservation and education projects and so much more excitement by riding the elephant with our Elephant Back Safari around the African Savannah and get to see your favorite animal up close! and and there's a night into the wild names Night Safari where you can ride with amazing wild experiences ever. In Animal Encounter make the Bali Safari and Marine Park's leading family attraction and adventure in Bali.",
         coordinates: {
@@ -5404,10 +5288,10 @@ const destinationsData = [
     rating: 5,
     price: "$1000",
     imageSrc: London,
-    imageAlt: "",
+    imageAlt: "London, England",
     category: "Highest Rated",
     additionalDetails: {
-      DestinationName: "Bali,Indonesia",
+      DestinationName: "London, England",
 
       images: [
         "https://media2.thrillophilia.com/images/photos/000/163/349/original/1562917404_Group-of-hikers-walking-on-the-Caldera-of-Volcano-of-Batur-Bali.jpg?w=753&h=450&dpr=1.0",
@@ -5423,8 +5307,8 @@ const destinationsData = [
         // ... add more image URLs here
       ],
       location: {
-        country: "Indonesia",
-        city: "Bali",
+        country: "England",
+        city: "London",
         description:
           "Home to thousand amazing animals representing more than 100 species, including some of rare and endangered species. Combining Balinese cultural ambience with African Savannah, Bali Safari and Marine Park features the following exhibits featuring Sumatran elephant, Sumatran tiger, white tiger, leopard, komodo dragon are just some of the fascinating creatures that can be seen at the Bali Safari and Marine Park. Fulfilling its mission of conservation, education and recreation through one of our attractive Elephant Show devoted to animals involved in conservation and education projects and so much more excitement by riding the elephant with our Elephant Back Safari around the African Savannah and get to see your favorite animal up close! and and there's a night into the wild names Night Safari where you can ride with amazing wild experiences ever. In Animal Encounter make the Bali Safari and Marine Park's leading family attraction and adventure in Bali.",
         coordinates: {
@@ -5720,10 +5604,10 @@ const destinationsData = [
     rating: 5,
     price: "$1000",
     imageSrc: Rome,
-    imageAlt: "",
+    imageAlt: "Rome, Italy",
     category: "Highest Rated",
     additionalDetails: {
-      DestinationName: "Bali,Indonesia",
+      DestinationName: "Rome, Italy",
 
       images: [
         "https://media2.thrillophilia.com/images/photos/000/163/349/original/1562917404_Group-of-hikers-walking-on-the-Caldera-of-Volcano-of-Batur-Bali.jpg?w=753&h=450&dpr=1.0",
@@ -5739,8 +5623,8 @@ const destinationsData = [
         // ... add more image URLs here
       ],
       location: {
-        country: "Indonesia",
-        city: "Bali",
+        country: "Italy",
+        city: "Rome",
         description:
           "Home to thousand amazing animals representing more than 100 species, including some of rare and endangered species. Combining Balinese cultural ambience with African Savannah, Bali Safari and Marine Park features the following exhibits featuring Sumatran elephant, Sumatran tiger, white tiger, leopard, komodo dragon are just some of the fascinating creatures that can be seen at the Bali Safari and Marine Park. Fulfilling its mission of conservation, education and recreation through one of our attractive Elephant Show devoted to animals involved in conservation and education projects and so much more excitement by riding the elephant with our Elephant Back Safari around the African Savannah and get to see your favorite animal up close! and and there's a night into the wild names Night Safari where you can ride with amazing wild experiences ever. In Animal Encounter make the Bali Safari and Marine Park's leading family attraction and adventure in Bali.",
         coordinates: {
@@ -6036,10 +5920,10 @@ const destinationsData = [
     rating: 5,
     price: "$1000",
     imageSrc: Phuket,
-    imageAlt: "",
+    imageAlt: "Phuket, Thailand",
     category: "Highest Rated",
     additionalDetails: {
-      DestinationName: "Bali,Indonesia",
+      DestinationName: "Phuket, Thailand",
 
       images: [
         "https://media2.thrillophilia.com/images/photos/000/163/349/original/1562917404_Group-of-hikers-walking-on-the-Caldera-of-Volcano-of-Batur-Bali.jpg?w=753&h=450&dpr=1.0",
@@ -6055,8 +5939,8 @@ const destinationsData = [
         // ... add more image URLs here
       ],
       location: {
-        country: "Indonesia",
-        city: "Bali",
+        country: "Thailand",
+        city: "Phuket",
         description:
           "Home to thousand amazing animals representing more than 100 species, including some of rare and endangered species. Combining Balinese cultural ambience with African Savannah, Bali Safari and Marine Park features the following exhibits featuring Sumatran elephant, Sumatran tiger, white tiger, leopard, komodo dragon are just some of the fascinating creatures that can be seen at the Bali Safari and Marine Park. Fulfilling its mission of conservation, education and recreation through one of our attractive Elephant Show devoted to animals involved in conservation and education projects and so much more excitement by riding the elephant with our Elephant Back Safari around the African Savannah and get to see your favorite animal up close! and and there's a night into the wild names Night Safari where you can ride with amazing wild experiences ever. In Animal Encounter make the Bali Safari and Marine Park's leading family attraction and adventure in Bali.",
         coordinates: {

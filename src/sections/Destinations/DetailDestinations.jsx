@@ -12,6 +12,22 @@ import Accommodation from "./AdditionalComponents/Accommodation";
 import DiningOption from "./AdditionalComponents/DiningOption";
 import LocalSpecialty from "./AdditionalComponents/LocalSpecialty";
 import fetchWeatherForDestination from "./AdditionalComponents/fetchWeatherForDestination"; // Import the function to fetch weather data
+import clouds from "./images/clouds.jpg";
+import Snow from "./images/Snow.jpg";
+import Clear from "./images/clearsky.jpg";
+import Drizzle from "./images/Drizzle.jpg";
+import Rain from "./images/Rain.jpg";
+import Thunderstorm from "./images/Thunderstorm.jpg";
+
+const weatherImages = {
+  Clouds: clouds,
+  Snow: Snow,
+  Clear: Clear,
+  Drizzle: Drizzle,
+  Rain: Rain,
+  Thunderstorm: Thunderstorm,
+  // Add more conditions and respective video URLs as needed
+};
 
 export default function DetailDestinations() {
   const { id } = useParams();
@@ -19,6 +35,7 @@ export default function DetailDestinations() {
   const [loading, setLoading] = useState(true);
   const [weatherData, setWeatherData] = useState(null);
   const [temperature, setTemperature] = useState(null);
+  const [bgImage, setBgImage] = useState("");
 
   const cachedWeather = useMemo(() => {
     return {};
@@ -49,6 +66,33 @@ export default function DetailDestinations() {
         setWeatherData(data);
         setTemperature(`${weatherTemp}°C`);
         cachedWeather[cityName] = data;
+
+        // Inside fetchData function, after setting weatherData and temperature
+        const main = data.weather[0].main;
+
+        switch (main) {
+          case "Clouds":
+            setBgImage(weatherImages.Clouds);
+            break;
+          case "Snow":
+            setBgImage(weatherImages.Snow);
+            break;
+          case "Clear":
+            setBgImage(weatherImages.Clear);
+            break;
+          case "Drizzle":
+            setBgImage(weatherImages.Drizzle);
+            break;
+          case "Rain":
+            setBgImage(weatherImages.Rain);
+            break;
+          case "Thunderstorm":
+            setBgImage(weatherImages.Thunderstorm);
+            break;
+          default:
+            setBgImage(weatherImages.Clear);
+            break;
+        }
       }
     } catch (error) {
       console.error("Error fetching weather data:", error);
@@ -79,7 +123,6 @@ export default function DetailDestinations() {
   if (!destination) {
     return <p>Destination not found.</p>;
   }
-
   const { additionalDetails } = destination;
 
   const destinationName =
@@ -114,45 +157,61 @@ export default function DetailDestinations() {
         <div className="mb-12">
           <ImageGallery images={images} />
         </div>
+
+        {/* ------------------- */}
+        <div className="mb-12">
+          <BestTimeToVisit bestTimeToVisit={bestTimeToVisit} />
+        </div>
         {/*-------------------------------------------------------*/}
-        <div className="flex flex-col md:flex-row">
-          {/* Best Time to Visit */}
-          <div className="md:w-1/2">
-            <div className="mb-12">
-              <BestTimeToVisit bestTimeToVisit={bestTimeToVisit} />
-            </div>
-          </div>
-          {/* Weather Card */}
-          <div className="md:w-1/2">
-            {weatherData && (
-              <div className="mt-2">
-                <h2 className="text-xl font-semibold mb-4">
-                  Weather for {destination?.additionalDetails?.location?.city},{" "}
-                  {destination?.additionalDetails?.location?.country}
-                </h2>
-                {/* Weather content */}
-                <div className="flex items-center">
-                  <div className="mr-4">
-                    <img
-                      className="h-16 w-16"
-                      src={`http://openweathermap.org/img/wn/${weatherData.weather[0].icon}.png`}
-                      alt="Weather Icon"
-                    />
-                  </div>
-                  <div>
-                    <p className="text-lg">Temperature: {temperature}</p>
-                    <p className="text-sm">
-                      Description: {weatherData?.weather[0]?.description}
-                    </p>
-                  </div>
+        <div>
+          <h1 className="text-3xl font-semibold mb-4">Weather Data</h1>
+          <div className="flex justify-center">
+            <div className="w-2/3 md:w-1/2 relative rounded-lg border-2  overflow-hidden shadow-lg">
+              {/* Background Image */}
+              <div
+                className=""
+                style={{
+                  backgroundImage: `url(${bgImage})`,
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
+                  height: "400px", // Adjust the height as needed
+                }}
+              >
+                {/* Overlay Content */}
+                <div className="absolute top-0 left-0 w-full h-full p-5 flex flex-col justify-start items-center z-10">
+                  {weatherData && (
+                    <div className="text-black text-justify">
+                      {/* Weather Information */}
+                      <h2 className="text-4xl font-semibold mb-4">
+                        {destination?.additionalDetails?.location?.city},{" "}
+                        {destination?.additionalDetails?.location?.country}
+                      </h2>
+                      <div
+                        className="flex items-center justify-center mb-4 rounded-2xl bg-transparent"
+                        style={{ backdropFilter: "blur(6px)" }}
+                      >
+                        <div>
+                          <p className="text-lg font-semibold">
+                            Temperature: {temperature}
+                          </p>
+                          <p className="text-lg font-semibold">
+                            Description: {weatherData?.weather[0]?.main},{" "}
+                            {weatherData?.weather[0]?.description}
+                          </p>
+                        </div>
+                      </div>
+                      {/* Other Weather Details */}
+                      {/* Add more weather details here */}
+                    </div>
+                  )}
                 </div>
               </div>
-            )}
+            </div>
           </div>
         </div>
 
         {/*-------------------------------------------------------*/}
-        <div className="flex gap-6">
+        <div className="flex mt-12  gap-6">
           <div className="flex-1">
             <Activities activities={activities} />
           </div>
